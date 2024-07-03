@@ -1,0 +1,59 @@
+*/reseteo de codigo para unificar los espacios en todos los navegadores */
+*{
+    padding: 0;
+    margin: 0;
+
+    }
+body{
+    background-color: #77acdd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #d6e5ef;
+    text-align: center;
+    flex-direction: row;
+}
+header img{
+    width: 150px;
+    border-radius: 10%;
+    padding: 0%;
+}
+   header nav ul{
+    list-style-type: none;
+   }
+   li{
+    margin: 30px;
+    display: inline-block;
+   } 
+   li:hover{
+    color: black;
+    background-color: white;
+   }
+a{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: black  solid;
+    padding: 0%;
+}
+p{
+    padding: 10px;
+    line-height: 1.5;
+    font-size: 1.2;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+section h2{ text-align: center; }
+section img{ width: 1550px;}
+footer img{
+    width: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 2;
+}
